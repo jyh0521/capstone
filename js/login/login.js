@@ -3,7 +3,7 @@ var sessionId = sessionStorage.getItem("usr_id");
 
 if(sessionId) {
     alert("이미 로그인 되어있습니다.");
-    document.location.replace('/capstone/html/main/main.html');
+    document.location.replace('/capstone/php/main/main.php');
 }
 
 $("#loginBtn").off().on('click', function(){

@@ -15,7 +15,7 @@
                     alert('로그인 되었습니다.');
                     var sessionId = '$usr_id';
                     sessionStorage.setItem('usr_id', sessionId);
-                    document.location.replace('/capstone/html/main/main.html');
+                    document.location.replace('/capstone/php/main/main.php');
                 </script>";
     }
     else {
